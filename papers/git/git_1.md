@@ -1,4 +1,7 @@
 ## Code editor
+
+These are tools which might help working with the `git` using a particular code editor.
+
 [VSCode](https://code.visualstudio.com/download):
 
 1.  Supports `Git` ootb
