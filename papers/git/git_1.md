@@ -4,7 +4,7 @@ These are tools which might help working with the `git` using a particular code 
 
 [VSCode](https://code.visualstudio.com/download):
 
-1.  Supports `Git` out-of-the-box.
+1.  Supports the `Git` out-of-the-box.
 2.  The GitLens: [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
 3.  An SSH key issue: [https://github.com/microsoft/vscode/issues/13680](https://github.com/microsoft/vscode/issues/13680).
 4.  The Windows version of Git: [https://gitforwindows.org/](https://gitforwindows.org/).
