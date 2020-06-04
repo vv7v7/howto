@@ -4,10 +4,10 @@ These are tools which might help working with the `git` using a particular code 
 
 [VSCode](https://code.visualstudio.com/download):
 
-1.  Supports `Git` ootb
-2.  The GitLens: [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-3.  An SSH key issue: [https://github.com/microsoft/vscode/issues/13680](https://github.com/microsoft/vscode/issues/13680)
-4.  The Windows version of Git: [https://gitforwindows.org/](https://gitforwindows.org/)
+1.  Supports `Git` out-of-the-box.
+2.  The GitLens: [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens).
+3.  An SSH key issue: [https://github.com/microsoft/vscode/issues/13680](https://github.com/microsoft/vscode/issues/13680).
+4.  The Windows version of Git: [https://gitforwindows.org/](https://gitforwindows.org/).
 
 [VStudio](https://visualstudio.microsoft.com/vs/community/):
 
@@ -53,9 +53,9 @@ To create a new empty(or not) repository:
     - From `man git-clone` (if `git clone --bare <url> <path>` used):
     	> Make a bare Git repository. That is, instead of creating `<directory>` and placing the administrative files in `<directory>/.git`, make the `<directory>` itself the `$GIT_DIR`. This obviously implies the `-n` or `--no-checkout` because there is nowhere to `check out` the working tree. Also the `branch heads at the remote` are copied directly to corresponding `local branch heads`, without mapping them to `refs/remotes/origin/`. When this option is used, neither remote-tracking branches nor the related configuration variables are created.
 
-If a `<repo>` is not empty:
+If a `<repo>` directory is not empty:
 
-3.  `git add -A` to add all files into repository which exist in `RemoteRepo` directory, `git add <filepath>` to add a specific one or `git add <filepath>/\*` to add everything from specific directory(i.e. `<filepath>/\*.cpp` would add all C++ source files) etc.
+3.  `git add -A` to add all files into repository which exist in `<repo>` directory, `git add <filepath>` to add a specific one or `git add <filepath>/\*` to add everything from specific directory(i.e. `<filepath>/\*.cpp` would add all C++ source files) etc.
     - The `git add .` only adds new files that are on the current path. I.e. if you have a new directory `../foo`, `git add -A` will stage it, `git add .` will not.
     - The `git add -u <filepath>` adds only files which were `deleted/modified` to the index and not those which created.
     - The `git add <filepath> --ignore-removal` ignores file deletions
@@ -101,7 +101,7 @@ To link a `local` repository with `remote`(bare) to have an ability to `push/fet
 ## Links:
 
 1.  [The entire Pro Git book](https://git-scm.com/book)
-2.	[Reference](https://git-scm.com/docs)
+2.  [Reference](https://git-scm.com/docs)
 3.  [gitglossary(7) Manual Page](https://gitirc.eu/gitglossary.html)
 4.  [Git Objects](https://git-scm.com/book/en/v2/Git-Internals-Git-Objects)
 5.  [Half an hour Git: A Beginner's Guide](https://translate.google.com/translate?hl=&sl=ru&tl=en&u=https%3A%2F%2Fproglib.io%2Fp%2Fgit-for-half-an-hour)(Google translated)
