@@ -53,7 +53,7 @@ To create a new empty(or not) repository:
     - From `man git-clone` (if `git clone --bare <url> <path>` used):
     	> Make a bare Git repository. That is, instead of creating `<directory>` and placing the administrative files in `<directory>/.git`, make the `<directory>` itself the `$GIT_DIR`. This obviously implies the `-n` or `--no-checkout` because there is nowhere to `check out` the working tree. Also the `branch heads at the remote` are copied directly to corresponding `local branch heads`, without mapping them to `refs/remotes/origin/`. When this option is used, neither remote-tracking branches nor the related configuration variables are created.
 
-If `<repo>` is not empty:
+If a `<repo>` is not empty:
 
 3.  `git add -A` to add all files into repository which exist in `RemoteRepo` directory, `git add <filepath>` to add a specific one or `git add <filepath>/\*` to add everything from specific directory(i.e. `<filepath>/\*.cpp` would add all C++ source files) etc.
     - The `git add .` only adds new files that are on the current path. I.e. if you have a new directory `../foo`, `git add -A` will stage it, `git add .` will not.
