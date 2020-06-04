@@ -1,18 +1,20 @@
-VSCode:
+## Code editor
+[VSCode](https://code.visualstudio.com/download):
 
 1.  Supports `Git` ootb
 2.  The GitLens: [https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 3.  An SSH key issue: [https://github.com/microsoft/vscode/issues/13680](https://github.com/microsoft/vscode/issues/13680)
 4.  The Windows version of Git: [https://gitforwindows.org/](https://gitforwindows.org/)
 
-VStudio:
+[VStudio](https://visualstudio.microsoft.com/vs/community/):
 
 1.  `Git Extensions` [program](http://gitextensions.github.io/) (portable/installed) + its [plugin](https://marketplace.visualstudio.com/items?itemName=HenkWesthuis.GitExtensions)
-
 * * *
 
+## Repository
+
 Before attempting to create a remote repository consider asking which protocol will you use for it.  
-For example, a user `git` which would be avilable through `SSH` and only in `localhost`.  
+For example(`linux`), a user `git` which would be avilable through `SSH` and only in `localhost`.  
 The `AllowUsers` setting in `sshd_config` is disabled by default, hence, allows any user to connect to SSH server.
 
 1.  `sudo nano /etc/ssh/sshd_config`
@@ -63,7 +65,7 @@ To link local repository to remote
 
 * * *
 
-Some definitions:
+## Definitions
 
 1.  `Pull` = `LocalRepo <- RemoteRepo`
 2.  `Push` = `LocalRepo -> RemoteRepo`
@@ -75,7 +77,7 @@ Some definitions:
 
 * * *
 
-Some links:
+## Links:
 
 1.  [https://gitirc.eu/gitglossary.html](https://gitirc.eu/gitglossary.html)
 2.  [https://gitirc.eu/git-clone.html](https://gitirc.eu/git-clone.html)
