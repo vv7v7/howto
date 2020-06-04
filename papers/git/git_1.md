@@ -31,9 +31,11 @@ The `AllowUsers` setting in `sshd_config` is disabled by default, hence, allows 
     - If password used for private key and VSCode used: check above link for `an SSH key issue`.
     - If Windows used:
         1.  Copy private(and public if GitforWindows used) key(s) to `%user%\.ssh`
-        2.  Create a config file inside `%user%\.ssh` with a contents:```  
+        2.  Create a config file inside `%user%\.ssh` with a contents:
+	```  
             Match User git  
             IdentityFile ~/.ssh/
+	```
 7.  The remote URL would be `ssh://git@localhost:port/home/git/Git/RemoteRepo`
 
 * * *
