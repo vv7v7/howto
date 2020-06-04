@@ -68,7 +68,7 @@ If a `<repo>` directory is not empty:
 First of all, a remote repository is not necessary. You are able to work with the `git` absolutely locally, alone. Just initialize a `non bare`(more below) repository locally and work with it: `commit`, `check out`, create new `branches`, `merge` etc.  
 The `git` does **not** need the Internet or any other server access if used only on local machine.  
 A locally initialized repository has exactly the same functionality and features which we would have using a `git server` by default. `By default` means that a remote `git server` might have some additional security(i.e. an IP filter, bandwidth limits etc.).  
-For example, we are able to create both `worktree` and `bare` repositories on local machine and work with them: `commit` to `worktree` repository and `push` into a `bare` one and it give it to a friend using a pen drive.  
+For example, we are able to create both `nonbare`(usually called simply as `repository`) and `bare` repositories on local machine and work with them: `commit` to `nonbare` repository and `push` into a `bare` one and it give it to a friend using a pen drive.  
 Although, it might be simpler to share your `bare` repository using a `git server` of you own or any other like `GitHub`, `Bitbucket` etc. There are even such `git` `repository managers` like the `GitLab` which is possible to install on your own local or remote `web server` and it might help manage repositories easier. It even has an automatic build, check systems and such by default which might help automate the process.
 
 To link a `local` repository with `remote`(bare) to have an ability to `push/fetch/merge` etc.
