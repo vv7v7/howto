@@ -40,7 +40,7 @@ To create a new empty remote repository:
 1.  `mkdir RemoteRepo`
 2.  `cd RemoteRepo`
 3.  `git init --bare`
-    - The `--bare` argument indicates this repository is bare, thus, does has `checked out` files outside of it. A `checked out` files are files with which you current work in current branch. If you'd try to push into `bare` repository as to remote server you might get and error like `remote: error: refusing to update checked out branch: refs/heads/master` meaning `Hey, this repository over there, it has a branch checked out, and you're trying to push to it. I'm not gonna let you do that`.
+    - The `--bare` argument indicates this repository is bare, thus, does has `checked out` files outside of it. A `checked out` files are files with which you currently work in current branch. If you'd try to push into `bare` repository as to remote server you might get and error like `remote: error: refusing to update checked out branch: refs/heads/master` meaning `Hey, this repository over there, it has a branch checked out, and you're trying to push to it. I'm not gonna let you do that`.
 
 To create a new empty or not local repository:
 
